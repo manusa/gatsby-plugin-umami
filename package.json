@@ -1,0 +1,67 @@
+{
+  "name": "@marcnuri/gatsby-plugin-umami",
+  "description": "Plugin to use Umami (umami.is)",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "babel src --out-dir . --ignore \"**/__tests__\"",
+    "pretest": "eslint --ignore-path .gitignore .",
+    "test": "jest"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": {
+    "name": "Marc Nuri",
+    "url": "https://blog.marcnuri.com"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "umami",
+    "analytics"
+  ],
+  "license": "Apache-2.0",
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "https://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manusa/gatsby-plugin-umami.git"
+  },
+  "bugs": {
+    "url": "https://github.com/manusa/gatsby-plugin-umami/issues"
+  },
+  "homepage": "https://github.com/manusa/gatsby-plugin-umami#readme",
+  "peerDependencies": {
+    "gatsby": "^4.25.6 || ^5.0.0-next",
+    "react": "^18.0.0 || ^0.0.0",
+    "react-dom": "^18.0.0 || ^0.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.23.0",
+    "@babel/core": "7.23.0",
+    "@babel/eslint-parser": "7.22.15",
+    "babel-jest": "29.7.0",
+    "babel-preset-gatsby-package": "3.12.0",
+    "eslint": "8.50.0",
+    "eslint-plugin-jest": "27.4.2",
+    "eslint-plugin-react": "7.33.2",
+    "jest": "29.7.0",
+    "jsdom": "22.1.0",
+    "react": "18.2.0",
+    "react-test-renderer": "18.2.0"
+  },
+  "babel": {
+    "presets": [
+      [
+        "babel-preset-gatsby-package",
+        {
+          "browser": true
+        }
+      ]
+    ]
+  }
+}
