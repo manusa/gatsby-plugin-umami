@@ -1,5 +1,5 @@
 # gatsby-plugin-umami
-[![npm](https://img.shields.io/npm/v/gatsby-plugin-google-analytics-gtag)](https://www.npmjs.com/package/gatsby-plugin-google-analytics-gtag)
+[![npm](https://img.shields.io/npm/v/@marcnuri/gatsby-plugin-umami)](https://www.npmjs.com/package/@marcnuri/gatsby-plugin-umami)
 
 Gatsby plugin to add Google Analytics support to your site leveraging Google's [gtag.js](https://developers.google.com/tag-platform/gtagjs) library.
 
